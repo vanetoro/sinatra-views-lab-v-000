@@ -1,2 +1,2 @@
 
-<p>Today is <% time = Time.now%> <%= time.wday time.month time.day  %> of <%= time.year%></p>
+<p>Today is <% time = Time.now%> <%= time.strftime("%A, %B %d %Y")%></p>
