@@ -1,1 +1,3 @@
-<p>The date is Saturday, May 19, 2018 <%= DateTime.now%> </p>
+<% time = Time.now%>
+<p>Today is
+   <%= t.wday time.month time.day  %> of <%= time.year%></p>
